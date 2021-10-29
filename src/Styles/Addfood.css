@@ -1,0 +1,53 @@
+/* .container {
+  height: 30vh;
+  width: 15vw;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  left: -35%;
+  top: -13vh; */
+
+/* display: flex; 
+  align-items: center;
+  justify-content: center;
+}*/
+.heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.4rem;
+}
+.img-holder {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border: 3px black solid;
+  border-radius: 5px;
+  margin-top: 1rem;
+  /* padding-top: 3vh; */
+}
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+#input[type="file"] {
+  display: none;
+}
+.label {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.image-upload {
+  margin: auto;
+  width: 160px;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 2vh;
+  padding-top: 1vh;
+}

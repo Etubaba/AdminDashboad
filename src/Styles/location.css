@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.location {
+  position: relative;
+  top: 9vh;
+}
+.subcatform {
+  position: relative;
+  top: 12vh;
+}
+.heading {
+  text-align: center;
+  margin: 30px;
+}
+.color-text {
+  color: #eda345;
+}
+
+.main-input {
+  width: 315px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  margin: 1vh 0;
+}
+.Form-body form {
+  margin-top: 18%;
+  padding: 20px;
+}
+.Form-body {
+  margin: auto;
+  background-color: #eda345;
+  width: 350px;
+  border-radius: 10px;
+}
+.Form-body button {
+  padding: 8px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 23, 23);
+  border: 0;
+  border-radius: 3px;
+  text-align: center;
+  width: 315px;
+}
+.Form-body button:hover {
+  border: 0;
+  border-radius: 3px;
+}
+/* active locations  stylings*/
+/* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: relative;
+    left: 17.5vw;
+    top: 10vh;
+    width: 80%;
+  }
+
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px;
+  }
+  th{
+      background-color: rgb(202, 201, 201);
+  } */
+.remove {
+  color: rgb(255, 255, 255);
+  background-color: rgb(168, 55, 55);
+  padding: 7px;
+  border-radius: 3px;
+}
+.green {
+  background-color: green;
+}
+.remove:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(184, 122, 122);
+  padding: 7px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.green:hover {
+  background-color: rgb(101, 160, 101);
+}
+/* select locations styling starts */
+.select-locations {
+  padding-left: 17px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
